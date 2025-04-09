@@ -25,42 +25,70 @@
           "commonName": "Sunflower",
           "color": "Golden"
         }
-      ],
+    ],
     "retailers": [
         {
             "id": 1,
             "name": "Green Thumb Garden Supplies",
             "address": "123 Flower St.",
             "city": "Springfield",
-            "state": "IL"
+            "state": "IL",
+            "distributorId": 1
         },
         {
             "id": 2,
             "name": "Petals & Blooms Nursery",
             "address": "456 Rose Ave.",
             "city": "Greenfield",
-            "state": "TX"
+            "state": "TX",
+            "distributorId": 2
         },
         {
             "id": 3,
             "name": "Blooming Wonders",
             "address": "789 Floral Blvd.",
             "city": "Fairview",
-            "state": "CA"
+            "state": "CA",
+            "distributorId": 3
         },
         {
             "id": 4,
             "name": "The Flower Hut",
             "address": "101 Orchid Dr.",
             "city": "Lakeside",
-            "state": "MI"
+            "state": "MI",
+            "distributorId": 2
         },
         {
             "id": 5,
             "name": "Wildflower Nursery",
             "address": "202 Daisy Rd.",
             "city": "Pinehill",
-            "state": "FL"
+            "state": "FL",
+            "distributorId": 1
         }
-      ]
+    ],
+    "distributors": [
+        {
+            "id": 1,
+            "name": "Flora Supply Co.",
+            "address": "100 Petal Lane",
+            "city": "Roseville",
+            "state": "CA"
+        },
+        {
+            "id": 2,
+            "name": "Fresh Blooms Distributors",
+            "address": "200 Bloom St.",
+            "city": "Tulip City",
+            "state": "TX"
+        },
+        {
+            "id": 3,
+            "name": "Petal Power Distribution",
+            "address": "300 Stem Ave.",
+            "city": "Violet Town",
+            "state": "NY"
+        }
+    ]
 }
