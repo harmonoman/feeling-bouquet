@@ -25,5 +25,42 @@
           "commonName": "Sunflower",
           "color": "Golden"
         }
+      ],
+    "retailers": [
+        {
+            "id": 1,
+            "name": "Green Thumb Garden Supplies",
+            "address": "123 Flower St.",
+            "city": "Springfield",
+            "state": "IL"
+        },
+        {
+            "id": 2,
+            "name": "Petals & Blooms Nursery",
+            "address": "456 Rose Ave.",
+            "city": "Greenfield",
+            "state": "TX"
+        },
+        {
+            "id": 3,
+            "name": "Blooming Wonders",
+            "address": "789 Floral Blvd.",
+            "city": "Fairview",
+            "state": "CA"
+        },
+        {
+            "id": 4,
+            "name": "The Flower Hut",
+            "address": "101 Orchid Dr.",
+            "city": "Lakeside",
+            "state": "MI"
+        },
+        {
+            "id": 5,
+            "name": "Wildflower Nursery",
+            "address": "202 Daisy Rd.",
+            "city": "Pinehill",
+            "state": "FL"
+        }
       ]
 }
