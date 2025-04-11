@@ -90,5 +90,136 @@
             "city": "Violet Town",
             "state": "NY"
         }
-    ]
+    ],
+    "nurseries": [
+        {
+            "id": 1,
+            "name": "Sunny Fields Nursery",
+            "location": "Hilltop, NC"
+        },
+        {
+            "id": 2,
+            "name": "Whispering Pines Growers",
+            "location": "Maplewood, OR"
+        },
+        {
+            "id": 3,
+            "name": "Meadow Mist Farms",
+            "location": "Riverview, PA"
+        },
+        {
+            "id": 4,
+            "name": "Golden Petal Gardens",
+            "location": "Suncrest, AZ"
+        },
+        {
+            "id": 5,
+            "name": "Everbloom Acres",
+            "location": "Willowbend, VT"
+        }
+    ],
+    "nurseryDistributors": [
+        {
+            "id": 1,
+            "nurseryId": 1,
+            "distributorId": 1
+        },
+        {
+            "id": 2,
+            "nurseryId": 1,
+            "distributorId": 2
+        },
+        {
+            "id": 3,
+            "nurseryId": 2,
+            "distributorId": 2
+        },
+        {
+            "id": 4,
+            "nurseryId": 2,
+            "distributorId": 3
+        },
+        {
+            "id": 5,
+            "nurseryId": 3,
+            "distributorId": 3
+        },
+        {
+            "id": 6,
+            "nurseryId": 3,
+            "distributorId": 1
+        },
+        {
+            "id": 7,
+            "nurseryId": 4,
+            "distributorId": 1
+        },
+        {
+            "id": 8,
+            "nurseryId": 4,
+            "distributorId": 2
+        },
+        {
+            "id": 9,
+            "nurseryId": 5,
+            "distributorId": 1
+        },
+        {
+            "id": 10,
+            "nurseryId": 5,
+            "distributorId": 3
+        }
+    ],
+    "nurseryFlowers": [
+    {
+        "id": 1,
+        "nurseryId": 1,
+        "flowerId": 1
+    },
+    {
+        "id": 2,
+        "nurseryId": 1,
+        "flowerId": 2
+    },
+    {
+        "id": 3,
+        "nurseryId": 2,
+        "flowerId": 2
+    },
+    {
+        "id": 4,
+        "nurseryId": 2,
+        "flowerId": 3
+    },
+    {
+        "id": 5,
+        "nurseryId": 3,
+        "flowerId": 4
+    },
+    {
+        "id": 6,
+        "nurseryId": 3,
+        "flowerId": 5
+    },
+    {
+        "id": 7,
+        "nurseryId": 4,
+        "flowerId": 1
+    },
+    {
+        "id": 8,
+        "nurseryId": 4,
+        "flowerId": 3
+    },
+    {
+        "id": 9,
+        "nurseryId": 5,
+        "flowerId": 2
+    },
+    {
+        "id": 10,
+        "nurseryId": 5,
+        "flowerId": 5
+    }
+]
 }
