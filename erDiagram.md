@@ -2,22 +2,44 @@
 erDiagram
 
     Nurseries ||--o{ Nursery_Flowers : grows
+    Locations ||--o{ Nurseries : where_located
     Flowers   ||--o{ Nursery_Flowers : is_grown_by
+    Flowers ||--o{ Flower_Colors : displays
+    Flower_Types ||--o{ Flowers : type_of
+
+    Colors ||--o{ Flower_Colors : colors_of
     Distributors ||--o{ Nursery_Distributors : buys_from
+    Locations ||--o{ Distributors : where_located
     Nurseries ||--o{ Nursery_Distributors : sells_to
-    Retailers ||--o{ Distributors : "works_with"
+    Distributors ||--o{ Retailers : supplies
+    Locations ||--o{ Retailers : where_located
 
 
     Nurseries {
         int id pk
         varchar name
-        varchar location
+        int locationId fk
     }
 
     Flowers {
         int id pk
+        int flowerTypeId fk
+    }
+
+    Colors {
+        int id pk
+        varchar name
+    }
+
+    Flower_Colors {
+        int id pk
+        int flowerId fk
+        int colorId fk
+    }
+    
+    Flower_Types {
+        int id pk
         varchar commonName
-        varchar color
     }
 
     Nursery_Flowers {
@@ -29,18 +51,14 @@ erDiagram
     Retailers {
         int id pk
         varchar name
-        varchar address
-        varchar city
-        varchar state
+        int locationId fk
         int distributorId fk
     }
 
     Distributors {
         int id pk
         varchar name
-        varchar address
-        varchar city
-        varchar state
+        int locationId fk
     }
 
     Nursery_Distributors {
@@ -48,3 +66,12 @@ erDiagram
         int nurseryId fk
         int distributorId fk
     }
+
+    Locations {
+        int id pk
+        varchar address
+        varchar city
+        varchar state
+    }
+
+    
